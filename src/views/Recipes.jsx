@@ -7,14 +7,14 @@ export default function Recipes() {
     JSON.parse(localStorage.getItem("favorites")) || []
   );
   const [selectedRecipe, setSelectedRecipe] = useState(null);
-  const [saveMessage, setSaveMessage] = useState(""); 
+  const [saveMessage, setSaveMessage] = useState(""); // State to show save confirmation
 
   const recipes = [
     {
       id: 1,
       title: "Spaghetti Carbonara",
       category: "Italian",
-      image: "/images/carbonara.jpg",  
+      image: "public/images/carbonara.jpg",  // Use absolute path
       time: "30 minutes",
       ingredients: ["Spaghetti", "Eggs", "Pancetta", "Parmesan", "Black Pepper"],
       instructions:
@@ -24,7 +24,7 @@ export default function Recipes() {
       id: 2,
       title: "Vegan Buddha Bowl",
       category: "Vegan",
-      image: "/images/buddha.jpg", 
+      image: "public/images/buddha.jpg", // Use absolute path
       time: "25 minutes",
       ingredients: ["Quinoa", "Chickpeas", "Avocado", "Carrots", "Tahini Sauce"],
       instructions:
@@ -34,7 +34,7 @@ export default function Recipes() {
       id: 3,
       title: "Chicken Alfredo",
       category: "Italian",
-      image: "/images/chicken.jpg", 
+      image: "public/images/chicken.jpg", // Use absolute path
       time: "35 minutes",
       ingredients: ["Chicken", "Fettuccine", "Cream", "Parmesan", "Garlic"],
       instructions:
@@ -44,7 +44,7 @@ export default function Recipes() {
       id: 4,
       title: "Greek Salad",
       category: "Salad",
-      image: "/images/salad.jpg", 
+      image: "public/images/salad.jpg", // Use absolute path
       time: "10 minutes",
       ingredients: ["Tomatoes", "Cucumber", "Feta Cheese", "Olives", "Olive Oil"],
       instructions:
