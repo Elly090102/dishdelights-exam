@@ -14,7 +14,7 @@ export default function Recipes() {
       id: 1,
       title: "Spaghetti Carbonara",
       category: "Italian",
-      image: "public/images/carbonara.jpg",  // Use absolute path
+      image: "https://elly090102.github.io/dishdelights-exam/images/carbonara.jpg",  // Use absolute path
       time: "30 minutes",
       ingredients: ["Spaghetti", "Eggs", "Pancetta", "Parmesan", "Black Pepper"],
       instructions:
