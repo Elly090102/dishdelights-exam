@@ -11,7 +11,7 @@ import Favourites from "./views/Favourites";
 
 const router = createBrowserRouter([
   {
-    path: "/dishdelights/",
+    path: "/dishdelights-exam/",
     element: <Layout />,
     children: [
       
