@@ -24,7 +24,7 @@ export default function Recipes() {
       id: 2,
       title: "Vegan Buddha Bowl",
       category: "Vegan",
-      image: "public/images/buddha.jpg", // Use absolute path
+      image: "https://elly090102.github.io/dishdelights-exam/images/buddha.jpg", // Use absolute path
       time: "25 minutes",
       ingredients: ["Quinoa", "Chickpeas", "Avocado", "Carrots", "Tahini Sauce"],
       instructions:
@@ -34,7 +34,7 @@ export default function Recipes() {
       id: 3,
       title: "Chicken Alfredo",
       category: "Italian",
-      image: "public/images/chicken.jpg", // Use absolute path
+      image: "https://elly090102.github.io/dishdelights-exam/images/chicken.jpg", // Use absolute path
       time: "35 minutes",
       ingredients: ["Chicken", "Fettuccine", "Cream", "Parmesan", "Garlic"],
       instructions:
@@ -44,7 +44,7 @@ export default function Recipes() {
       id: 4,
       title: "Greek Salad",
       category: "Salad",
-      image: "public/images/salad.jpg", // Use absolute path
+      image: "https://elly090102.github.io/dishdelights-exam/images/salad.jpg", // Use absolute path
       time: "10 minutes",
       ingredients: ["Tomatoes", "Cucumber", "Feta Cheese", "Olives", "Olive Oil"],
       instructions:
