@@ -14,7 +14,7 @@ export default function Recipes() {
       id: 1,
       title: "Spaghetti Carbonara",
       category: "Italian",
-      image: "dist/images/carbonara.jpg",  // Use absolute path
+      image: "public/images/carbonara.jpg",  // Use absolute path
       time: "30 minutes",
       ingredients: ["Spaghetti", "Eggs", "Pancetta", "Parmesan", "Black Pepper"],
       instructions:
